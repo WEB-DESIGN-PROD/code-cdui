@@ -39,25 +39,30 @@
 - Les tableaux
 - Les fonctions
 - Les interactions
-
-
-
+  
+  
+  
 ## DIVERS SITES WEB & LIBRAIRIES UTILES
 
 ### HTML
-- [Librairie de Composants - HTML SYSTEMS](http://html.systems/)
+[Librairie de Composants - HTML SYSTEMS](http://html.systems/)
 
-- [Librairie de Composants - SHUFFLE (with Tailwind or Bootstrap ) - Payant](https://shuffle.dev/)
+[Librairie de Composants - SHUFFLE (with Tailwind or Bootstrap ) - Payant](https://shuffle.dev/)
 
-- [BOOTSTRAP - Librairie de Composants](https://getbootstrap.com/)
+[BOOTSTRAP - Framework](https://getbootstrap.com/)
 
 
 ### CSS
 
-- [Générateur d'arrière plan - couleurs](https://codioful.com/)
-- [Générateur d'arrière plan - patterns ou textures](https://www.magicpattern.design/tools/css-backgrounds)
+[Générateur d'arrière plan - couleurs](https://codioful.com/)
 
-- [TAILWIND CSS - Framework Class utilitaires](https://tailwindcss.com/)
+[Générateur d'arrière plan - patterns ou textures](https://www.magicpattern.design/tools/css-backgrounds)
+
+[Générateur de GRID](https://cssgrid-generator.netlify.app/)
+
+[CLIP PATH - Générateur de forme](https://bennettfeely.com/clippy/)
+
+[TAILWIND CSS - Framework](https://tailwindcss.com/)
 
 
 ### JS
@@ -65,3 +70,9 @@
 ### SEO
 
 ### PERFORMANCES
+
+### ACCESSIBILITE
+
+### RGPD
+
+### HEBERGEMENT
