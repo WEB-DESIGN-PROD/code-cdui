@@ -66,6 +66,10 @@ le tout, aligné au milieu de la hauteur de la section ( axe vertical ) :
 */
 
 section {
+    width: 100%;
+    min-height: 800px;
+    background-color: bisque;
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -110,4 +114,43 @@ section.services {
 
 section.services .box:nth-child(2) {
     align-self: flex-end;
+}
+
+
+
+/* 
+RESPONSIVE
+Lorsque l'écran du navigateur est redimensionner,
+l'ajout de la propriété flex-wrap: wrap 
+permet de faire passer les éléments les uns en-dessous des autres
+*/
+
+section {
+    width: 100%;
+    min-height: 800px;
+    background-color: bisque;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* flew-grow: 1;  permet d'étendre sur la largeur l'élément
+    qui est passé en-dessous au redimensionnement du navigateur
+    CF: images avec ou sans flex-grow */
+    flex-grow: 1;
+
 }
