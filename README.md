@@ -45,6 +45,18 @@
 ## DIVERS SITES WEB & LIBRAIRIES UTILES
 
 ### HTML
+
+[FontAwesome - Icons](https://fontawesome.com/search?o=r&m=free)
+
+[IconFinder - Icons](https://www.iconfinder.com/search?q=icons&price=free&license=gte__1)
+
+
+
+
+
+
+[Faire des symbols en HTML](https://www.toptal.com/designers/htmlarrows/symbols/)
+
 [Librairie de Composants - HTML SYSTEMS](http://html.systems/)
 
 [Librairie de Composants - SHUFFLE (with Tailwind or Bootstrap ) - Payant](https://shuffle.dev/)
@@ -60,14 +72,66 @@
 
 [Générateur de GRID](https://cssgrid-generator.netlify.app/)
 
+
+[Séparateur de section](https://www.shapedivider.app/)
+
+
+
 [CLIP PATH - Générateur de forme](https://bennettfeely.com/clippy/)
+
+
+https://animate.style/
+https://ianlunn.github.io/Hover/
+https://www.minimamente.com/project/magic/
+
+
 
 [TAILWIND CSS - Framework](https://tailwindcss.com/)
 
 
 ### JS
 
+https://htmlcheatsheet.com/js/
+https://pbs.twimg.com/media/EeAWAIbUEAEF2qM?format=png&name=large
+
+
+https://sweetalert2.github.io/
+https://editorjs.io/
+
+
+
+https://devdocs.io/javascript/
+
+
+https://www.joshwcomeau.com/operator-lookup/
+
+
+
+https://animejs.com/
+https://michalsnik.github.io/aos/
+https://greensock.com/gsap/
+http://scrollmagic.io/
+
+https://swiperjs.com/
+
+
+
+
+
+
+
+
+
+### LES LIGNES DE COMMANDE
+https://www.commentcamarche.net/informatique/macos/1435-utiliser-les-commandes-du-terminal-de-macos/
+
 ### SEO
+
+[GOOGLE SEARCH CENTRAL](https://developers.google.com/search/docs/fundamentals/get-on-google?hl=fr)
+
+
+
+
 
 ### PERFORMANCES
 
