@@ -1,0 +1,89 @@
+<!--
+    Le Doctype HTML
+    Source : https://developer.mozilla.org/fr/docs/Glossary/Doctype
+    
+    En HTML, le doctype est le préambule "<!DOCTYPE html>" requis en haut de tous les documents. Son seul but est d'empêcher un navigateur de passer en soi-disant “quirks mode” lors du rendu d'un document ; c'est-à-dire que le doctype "<!DOCTYPE html>" garantit que le navigateur fait de son mieux pour suivre les spécifications pertinentes, plutôt que d'utiliser un mode de rendu différent incompatible avec certaines spécifications.
+-->
+
+<!DOCTYPE html>
+
+<!--
+    Source : Content Generated AI
+-->
+
+<!-- La balise <html> avec l'attribut lang="en" est utilisée pour spécifier la langue principale de la page HTML. L'attribut lang est une valeur normalisée qui suit le code de langue défini par la norme ISO 639-1.
+
+Lorsque vous définissez lang="en", vous indiquez que le contenu principal de la page est en anglais. Cela peut être utile pour les moteurs de recherche, les outils d'accessibilité et d'autres applications qui utilisent les informations de langue pour classer, indexer ou présenter le contenu aux utilisateurs.
+
+La spécification de la langue de la page peut également avoir des implications pour le rendu du texte. Par exemple, les navigateurs peuvent utiliser des polices de caractères spécifiques à la langue ou appliquer des règles de césure appropriées lors de l'affichage du texte.
+
+Il est recommandé de spécifier la langue principale de chaque page HTML en utilisant la balise <html> avec l'attribut lang. Cela aide à garantir une meilleure accessibilité et une meilleure compréhension du contenu par les utilisateurs et les technologies liées au web. -->
+<html lang="en">
+
+
+<!-- La balise `<head></head>` est une section de l'élément `<html>` qui contient des informations et des métadonnées sur le document HTML. Elle précède le contenu principal de la page qui se trouve dans l'élément `<body>`.
+
+Voici quelques exemples de balises couramment utilisées à l'intérieur de la balise `<head>` :
+
+- `<title></title>` : Définit le titre du document qui est affiché dans la barre de titre du navigateur ou dans l'onglet correspondant à la page.
+
+- `<meta charset="UTF-8">` : Spécifie l'encodage des caractères utilisé par le document HTML (généralement UTF-8 pour prendre en charge différents caractères).
+
+- `<meta name="viewport" content="width=device-width, initial-scale=1.0">` : Contrôle le comportement de visualisation et d'échelle de la page sur les appareils mobiles.
+
+- `<link rel="stylesheet" href="style.css">` : Lie une feuille de style externe (fichier CSS) à la page HTML pour définir le style et la mise en forme du contenu.
+
+- `<script src="script.js"></script>` : Lie un script JavaScript externe à la page HTML pour ajouter des fonctionnalités et interagir avec le contenu.
+
+D'autres balises peuvent également être utilisées à l'intérieur de la balise `<head>` pour inclure des icônes, des balises de méta-description, des balises Open Graph pour le partage sur les réseaux sociaux, etc.
+
+La balise `<head>` est utilisée pour fournir des informations contextuelles sur la page HTML et pour inclure des ressources externes nécessaires au rendu et à l'interaction avec le contenu de la page. -->
+
+
+<head>
+
+    <!-- La balise `<meta charset="UTF-8">` est utilisée pour spécifier le jeu de caractères (encodage) utilisé par le document HTML.
+
+    L'encodage UTF-8 est un encodage de caractères universel qui peut représenter pratiquement tous les caractères utilisés dans les langues du monde. En spécifiant `<meta charset="UTF-8">`, vous indiquez au navigateur que le document HTML est encodé en UTF-8.
+
+    Cela garantit que le navigateur interprète correctement les caractères spéciaux et les caractères non ASCII présents dans le document, tels que les lettres accentuées, les symboles et les caractères multilingues.
+
+    Il est recommandé d'utiliser l'encodage UTF-8 pour la plupart des pages HTML, car cela permet une compatibilité étendue avec différentes langues et caractères spéciaux. Assurez-vous également que l'encodage déclaré dans la balise `<meta charset="UTF-8">` correspond à l'encodage réellement utilisé pour enregistrer le fichier HTML, afin d'éviter des problèmes d'affichage des caractères sur la page. -->
+
+    <meta charset="UTF-8">
+
+
+    <!-- résoudre les problèmes de compatibilité des versions antérieures d'Internet Explorer, en particulier lorsque des fonctionnalités plus récentes du HTML, du CSS ou du JavaScript sont utilisées dans la page. En spécifiant IE=edge, vous indiquez essentiellement au navigateur d'utiliser son moteur de rendu le plus à jour, plutôt que d'utiliser un mode de compatibilité qui pourrait entraîner un rendu incorrect de la page.
+
+    Il est important de noter que cette balise <meta> n'a d'effet que sur les navigateurs Internet Explorer. Les navigateurs modernes basés sur Chromium (comme Google Chrome) ou d'autres moteurs de rendu n'interpréteront pas cette balise de la même manière. -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- La balise <meta> avec l'attribut name="viewport" et le contenu content="width=device-width, initial-scale=1.0" est utilisée pour contrôler le comportement de visualisation et d'échelle de la page sur les appareils mobiles.
+
+    L'attribut name="viewport" indique que les propriétés de visualisation de la page doivent être configurées. Le contenu content="width=device-width, initial-scale=1.0" spécifie deux propriétés :
+
+        width=device-width: Cette propriété indique au navigateur de définir la largeur de la page sur la largeur de l'appareil (l'écran du périphérique). Cela permet à la page de s'adapter à la largeur de l'écran, ce qui est essentiel pour créer des sites Web réactifs et adaptatifs.
+
+        initial-scale=1.0: Cette propriété définit le niveau initial de zoom de la page lorsqu'elle est chargée pour la première fois. Un initial-scale de 1.0 signifie que la page est affichée à l'échelle 1:1, sans zoom.
+
+    En utilisant cette balise <meta> avec les propriétés appropriées, vous pouvez garantir que votre page web est correctement affichée sur les appareils mobiles, en s'adaptant à la largeur de l'écran et en évitant un zoom indésirable.
+
+    Il convient de noter que la balise <meta name="viewport"> et son contenu sont principalement utilisés pour les sites Web réactifs, qui sont conçus pour s'adapter à différentes tailles d'écran. Cela permet d'optimiser l'expérience utilisateur sur les appareils mobiles et de rendre la page plus facilement consultable sur une variété de périphériques. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- La balise <title></title> est utilisée pour définir le titre du document HTML. Le contenu placé entre les balises <title> et </title> est affiché dans la barre de titre du navigateur ou dans l'onglet du navigateur lorsque la page est ouverte. -->
+
+    <title>Document</title>
+
+</head>
+
+
+<!-- La balise <body></body> est une section de l'élément <html> qui contient le contenu principal de la page HTML visible aux utilisateurs. C'est à l'intérieur de la balise <body> que vous ajoutez les éléments tels que du texte, des images, des liens, des formulaires et d'autres éléments interactifs. -->
+
+<body>
+    
+</body>
+
+</html>
