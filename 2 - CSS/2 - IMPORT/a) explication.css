@@ -1,0 +1,18 @@
+/* Pour importer d'autres fichiers CSS, des typographies, etc... */
+
+/* 
+@import url("mettre_ici_l_emplacement_du_fichier_a_importer");
+*/
+/* importer de fichiers CSS qui se trouvent en local, dans notre projet.
+Ainsi, un seul fichier css sera lié au fichier HTML, mais ce dernier importera d'autres fichiers CSS.
+Cela permet d'avoir une bonne organisation, de compartimemter le style, afin d'avoir par exemple
+le style de tous les éléments html du footer, dans son fichier dédié footer.css 
+*/
+@import url("layout.css");
+@import url("header.css");
+@import url("navigation.css");
+@import url("main.css");
+@import url("footer.css");
+
+/* import d'une typographie venant de l'extérieur, du site Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
