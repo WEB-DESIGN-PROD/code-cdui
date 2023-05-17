@@ -80,9 +80,12 @@
 [CLIP PATH - Générateur de forme](https://bennettfeely.com/clippy/)
 
 
-https://animate.style/
-https://ianlunn.github.io/Hover/
-https://www.minimamente.com/project/magic/
+https://animate.style/  
+
+https://ianlunn.github.io/Hover/ 
+
+https://www.minimamente.com/project/magic/  
+
 
 
 
@@ -91,39 +94,35 @@ https://www.minimamente.com/project/magic/
 
 ### JS
 
-https://htmlcheatsheet.com/js/
-https://pbs.twimg.com/media/EeAWAIbUEAEF2qM?format=png&name=large
+https://htmlcheatsheet.com/js/  
 
+https://pbs.twimg.com/media/EeAWAIbUEAEF2qM?format=png&name=large  
 
-https://sweetalert2.github.io/
-https://editorjs.io/
+https://sweetalert2.github.io/  
 
+https://editorjs.io/  
 
+https://devdocs.io/javascript/  
 
-https://devdocs.io/javascript/
+https://www.joshwcomeau.com/operator-lookup/  
 
+https://animejs.com/  
 
-https://www.joshwcomeau.com/operator-lookup/
+https://michalsnik.github.io/aos/  
 
+https://greensock.com/gsap/ 
 
+http://scrollmagic.io/  
 
-https://animejs.com/
-https://michalsnik.github.io/aos/
-https://greensock.com/gsap/
-http://scrollmagic.io/
-
-https://swiperjs.com/
-
-
-
-
-
+https://swiperjs.com/  
 
 
 
 
 ### LES LIGNES DE COMMANDE
-https://www.commentcamarche.net/informatique/macos/1435-utiliser-les-commandes-du-terminal-de-macos/
+
+[Les lignes de commande](https://www.commentcamarche.net/informatique/macos/1435-utiliser-les-commandes-du-terminal-de-macos/)
+
 
 ### SEO
 
