@@ -21,6 +21,17 @@
 - Les pseudos-éléments
 - L'animation d'éléments
 
+[Pratiquer les propriétés FlexBox](https://flexboxfroggy.com/#fr)
+[Pratiquer les propriétés Grid](https://cssgridgarden.com/#fr)
+
+[S'entrainer à cibler des éléments](https://flukeout.github.io/)
+
+
+[En savoir plus sur la doc officielle](https://developer.mozilla.org/fr/docs/Web/CSS)
+
+
+
+
 ## JS
 
 - Les variables
