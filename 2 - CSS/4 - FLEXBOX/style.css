@@ -1,10 +1,14 @@
-/* Pour le positionnemnet d'éléments avec les propriétés FLEXBOX */
+/*
+Pour le positionnemnet d'éléments avec les propriétés FLEXBOX
 
-/* 
-Par défaut la direction du flex est horizontale, de gauche à droite
+site web d'entrainement : 
+https://flexboxfroggy.com/#fr
 */
 
-/*
+/* 
+
+Par défaut la direction du flex est horizontale, de gauche à droite
+
 Les propriétés FLEXBOX doivent être appliquées à "l'élément html parent".
 L'élément parent va donc automatiquement positionner ses éléments enfants,
 les éléments qu'il contient.
