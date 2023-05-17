@@ -1,0 +1,48 @@
+/* 
+Créer un dossier fonts à la racine du projet.
+Ajouter toutes les typos téléchargées et leurs variantes ( 100, 200, 300, 400, ... )
+*/
+
+
+@font-face {
+    /* Choisir un nom pour notre typo */
+    font-family: 'Satoshi';
+    /* Associer un numéro avec une première variation de la typo */
+    font-weight: 400;
+    src: url("fonts/satoshi/Satoshi-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    /* Indiquer une autre variation */
+    font-weight: 300;
+    src: url("fonts/satoshi/Satoshi-Light.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    font-weight: 900;
+    src: url("fonts/satoshi/Satoshi-Black.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    font-weight: 900;  
+    font-style: italic;
+    src: url("fonts/satoshi/Satoshi-BlackItalic.ttf") format('ttf');
+}
+
+
+/* 
+Exemple d'utilisation
+*/
+
+section.video h1 {
+    /* Indiquer le nom choisi pour notre typo, et une par défaut si le chargement échoue.. */
+    font-family: 'Satoshi', sans-serif;
+    /* Se référer aux imports ci-dessus pour indiquer
+    le bon numéro du font-weight correspondant */
+    font-weight: 900;
+    font-style: italic;
+}
+

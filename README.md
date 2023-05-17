@@ -6,7 +6,10 @@
 - Les balises 
 - Les attributs 
 
-[En savoir plus sur la documentation officielle](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+[Les balises HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Element/a)
+
+[En savoir plus sur la doc officielle](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+
 
 ## CSS
 
