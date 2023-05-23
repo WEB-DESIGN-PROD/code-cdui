@@ -1,6 +1,6 @@
 # CDUI
 
-## HTML
+## 👉 HTML
 
 - Le Doctype HTML
 - Les balises 
@@ -11,7 +11,7 @@
 [En savoir plus sur la doc officielle](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 
 
-## CSS
+## 👉 CSS
 
 - La mise en page générale
 - Les imports de fichiers ou de typographies...
@@ -40,7 +40,7 @@
 
 
 
-## JS
+## 👉 JS
 
 - Les variables
 - Les tableaux
@@ -49,9 +49,9 @@
   
   
   
-## DIVERS SITES WEB & LIBRAIRIES UTILES
+## 👉 DIVERS SITES WEB & LIBRAIRIES UTILES
 
-### HTML
+### 👉 HTML
 
 [FontAwesome - Icons](https://fontawesome.com/search?o=r&m=free)
 
@@ -71,7 +71,7 @@
 [BOOTSTRAP - Framework](https://getbootstrap.com/)
 
 
-### CSS
+### 👉 CSS
 
 [Générateur d'arrière plan - couleurs](https://codioful.com/)
 
@@ -99,7 +99,7 @@ https://www.minimamente.com/project/magic/
 [TAILWIND CSS - Framework](https://tailwindcss.com/)
 
 
-### JS
+### 👉 JS
 
 https://htmlcheatsheet.com/js/  
 
@@ -126,12 +126,12 @@ https://swiperjs.com/
 
 
 
-### LES LIGNES DE COMMANDE
+### 👉 LES LIGNES DE COMMANDE
 
 [Les lignes de commande](https://www.commentcamarche.net/informatique/macos/1435-utiliser-les-commandes-du-terminal-de-macos/)
 
 
-### SEO
+### 👉 SEO
 
 [GOOGLE SEARCH CENTRAL](https://developers.google.com/search/docs/fundamentals/get-on-google?hl=fr)
 
@@ -139,10 +139,10 @@ https://swiperjs.com/
 
 
 
-### PERFORMANCES
+### 👉 PERFORMANCES
 
-### ACCESSIBILITE
+### 👉 ACCESSIBILITE
 
-### RGPD
+### 👉 RGPD
 
-### HEBERGEMENT
+### 👉 HEBERGEMENT

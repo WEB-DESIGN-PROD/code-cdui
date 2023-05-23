@@ -1,7 +1,16 @@
 /* Pour le positionnemnet d'éléments avec les propriétés GRID
 
+Doc officielle :
+https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout
+
+
 site web d'entrainement :
 https://cssgridgarden.com/#fr
+
+
+Générateur de Grille :
+https://cssgrid-generator.netlify.app/
+
 
 */
 
@@ -20,6 +29,40 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* écartement entre les colonnes et les lignes */
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.one {
+    /* positionner la div.one en la faisant commencer à la colonne 1 et en la faisant s'étendre jusqu'à la colonne 3 */
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+.two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+.three {
+    grid-column: 1;
+    grid-row: 2 / 5;
+}
+.four {
+    grid-column: 3;
+    grid-row: 3;
+}
+.five {
+    grid-column: 2;
+    grid-row: 4;
+}
+.six {
+    grid-column: 3;
+    grid-row: 4;
+}
 
 
 
