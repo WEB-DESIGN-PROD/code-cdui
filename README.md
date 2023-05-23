@@ -26,8 +26,15 @@
 [Pratiquer les propriétés Grid](https://cssgridgarden.com/#fr)
 
 [S'entrainer à cibler des éléments](https://flukeout.github.io/)
-  
-  
+
+
+[Générateur de clamp](https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6IjMyMHB4IiwibWF4V2lkdGgiOiIxOTIwcHgiLCJtaW5Gb250U2l6ZSI6IjE2cHgiLCJtYXhGb250U2l6ZSI6IjQ4cHgifQ%3D%3D)
+
+
+
+
+
+
 [En savoir plus sur la doc officielle](https://developer.mozilla.org/fr/docs/Web/CSS)
 
 
