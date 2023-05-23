@@ -2,5 +2,44 @@
 Doc officielle :
 https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-elements
 
+A voir aussi les pseudo-class :
+https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-classes
+
 
 */
+/* On ajoute un coeur avant les liens */
+a::before {
+    content: "♥";
+}
+
+/* Ajoute une flèche après les liens */
+a:after {
+    content: "→";
+}
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.box::before  {
+    content: "coucou";
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* inset 0 permet de dimensionner ce before comme l'élément parent .box */
+    inset: 0;
+    transform: translateY(250px);
+    transition: transform 300ms linear;
+}
+.box:hover::before  {
+    transform: translateY(0);
+}
