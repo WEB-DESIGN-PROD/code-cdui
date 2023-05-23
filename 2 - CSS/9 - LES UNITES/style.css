@@ -1,0 +1,25 @@
+/* 
+ 1 cm = 37,8 px
+*/
+
+Unité	Relative à
+
+px      Unité fixe
+
+em	    La taille (corps) de police de l'élément.
+        elle est proportionnelle à la taille de la police de l’élément parent ou du document.
+        Par défaut, 1 em = 16 px
+        si aucune taille de police n’est définie.
+
+rem	    La taille (corps) de police de l'élément racine.
+        l’unité rem fait toujours référence à la taille de la police de l’élément racine. En d’autres termes, elle dépend du font-size définit par défaut.
+
+vw	    1% de la largeur de la zone d'affichage (viewport)
+vh	    1% de la hauteur de la zone d'affichage (viewport)
+vmin	1% de la zone d'affichage selon sa plus petite dimension
+vmax	1% de la zone d'affichage selon sa plus grande dimension
+
+
+Utilise la fonction clamp() pour avoir un élément dont la taille s'ajuste automatiquement au resize du viewport.
+/* valeur minimum, la taille idéal, la valeur maximum */
+font-size: clamp(2vw, 5vw - 1rem, 4vw);

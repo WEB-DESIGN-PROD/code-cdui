@@ -5,5 +5,22 @@ https://cssgridgarden.com/#fr
 
 */
 
+section {
+    width: 100%;
+    min-height: 800px;
+    /* utiliser les propriétés de GRID */
+    display: grid;
+    /* définir le nombre de colonnes */
+    grid-template-columns: 1fr 2fr 2fr;
+    /* définir le nombre de lignes */
+    grid-template-rows: 1fr 1fr 1fr;
+    /* utiliser la fonction repeat() pour avoir trois lignes de 1fr */
+    grid-template-rows: repeat(3, 1fr);
+    /* auto-fit ou auto-fill pour générer automatiquement des colonnes responsives */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+
 
 
