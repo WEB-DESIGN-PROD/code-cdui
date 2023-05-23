@@ -1,0 +1,173 @@
+{
+    "Console Log": {
+      "prefix": "cl",
+      "body": "console.log($1);",
+      "description": "Console Log"
+    },
+  
+    "jQuery Document Ready": {
+      "prefix": "$jquery",
+      "body": ["$(document).ready(function(){", "  $1", " ", "});"],
+      "description": "jQuery Document Ready"
+    },
+  
+    "MENU MOBILE - JS": {
+      "prefix": "$menu",
+      "body": [
+        "var menuMobile = $('#maUL');",
+        "var nomDeClassAAjouter = 'revoir-la-ul';",
+        "",
+        "$('#monBouton').on('click', function(){",
+        "  menuMobile.toggleClass(nomDeClassAAjouter);",
+        "});",
+        "  "
+      ],
+      "description": "MENU MOBILE - JS"
+    },
+  
+    "Flickity - JS": {
+      "prefix": "$flickity",
+      "body": [
+        "$('.main-carousel').flickity({",
+        "  cellAlign: 'left',",
+        "  contain: true,",
+        "  autoPlay: 1500",
+        "});",
+        "  "
+      ],
+      "description": "Flickity - JS"
+    },
+  
+    "jQuery - Menu Mobile - Slider": {
+      "prefix": "$jQueryMenuMobileSlider",
+      "body": [
+        "$(document).ready(function(){",
+        "  //MENU MOBILE",
+        "  var menuMobile = $('#maUL');",
+        "  var nomDeClassAAjouter = 'revoir-la-ul';",
+        "    ",
+        "  $('#monBouton').on('click', function(){",
+        "    menuMobile.toggleClass(nomDeClassAAjouter);",
+        "  });",
+        "      ",
+        "  // SLIDER",
+        "  $('.main-carousel').flickity({",
+        "    cellAlign: 'left',",
+        "    contain: true,",
+        "    autoPlay: 1500",
+        "  });",
+        "      ",
+        "});"
+      ],
+      "description": "jQuery - Menu Mobile - Slider"
+    },
+  
+    "fonction Nommée": {
+      "prefix": "$functionNommee",
+      "body": ["function ${1:NomDeLaFonction}($2){", "  $3", "}"],
+      "description": "fonction Nommée"
+    },
+  
+    "Fonction Anonyme": {
+      "prefix": "$functionAnonyme",
+      "body": ["function() {", "  $2", "}"],
+      "description": "Fonction Anonyme"
+    },
+  
+    "Fonction Fléchée": {
+      "prefix": "$functionFlechee",
+      "body": ["const ${1:NomDeLaFonction} = ($2) => {", "  $3", "}"],
+      "description": "Fonction Fléchée"
+    },
+  
+    "Array Methode": {
+      "prefix": "$array",
+      "body": [
+        "${1|forEach,map,filter,reduc,some|}((${2:item}) => {",
+        "  $3",
+        "})"
+      ],
+      "description": "Array Methode"
+    },
+  
+    "Axios request": {
+      "prefix": "$axios",
+      "body": [
+        "axios.${1|get,post,put,delete|}('${2:url}')",
+        "  .then(res => console.log(res.data);",
+        "  .catch(err => console.log(err));"
+      ],
+      "description": "Axios request"
+    },
+  
+    "Express Server": {
+      "prefix": "$express",
+      "body": [
+        "const express = require('express');",
+        "",
+        "const app = express();",
+        "",
+        "app.${1|get,post,put,delete|}('${2:route}', (req, res) => {",
+        "  $3",
+        "});",
+        "",
+        "const PORT = process.env.PORT || ${4|3000,5000,8000,8080|};",
+        "",
+        "app.listen(PORT, () => console.log(`Server Running On Port ${PORT}`));"
+      ],
+      "description": "Express Server"
+    },
+  
+    "Express Route": {
+      "prefix": "$expressRoute",
+      "body": "app.${1|get,post,put,delete|}('${3:/}', (req, res) => {});",
+      "description": "Express Route"
+    },
+  
+    "Express Init Middleware": {
+      "prefix": "$expressInitMiddleware",
+      "body": "app.use(${1:middleware});",
+      "description": "Express Middleware"
+    },
+  
+    "Node Require": {
+      "prefix": "$nodeRequire",
+      "body": "const ${1:import} = require('${moduleName}');",
+      "description": "Require a Node.js module"
+    },
+  
+    "Fetch Request": {
+      "prefix": "$fetchRequest",
+      "body": [
+        "fetch('${1:url}')",
+        "  .then(res => res.json())",
+        "  .then(data => console.log(data));"
+      ],
+      "description": "Fetch Request"
+    },
+  
+    "asfetchreq": {
+      "prefix": "$asyncFetch",
+      "body": [
+        "const request = async ($1) => {",
+        "    const response = await fetch('${2:url}');",
+        "    const data = await response.json();",
+        "    console.log(data);",
+        "}"
+      ],
+      "description": "Fetch Async/Await"
+    },
+  
+    "Condition - If": {
+      "prefix": "$if",
+      "body": ["if(${1:condition}) {", "  $2", "}"],
+      "description": "Condition - If"
+    },
+  
+    "Condition - If else": {
+      "prefix": "$ifEsle",
+      "body": ["if(${1:condition}) {", "  $2", "} else {", "  $3", "}"],
+      "description": "Condition - If else"
+    }
+}
+  
