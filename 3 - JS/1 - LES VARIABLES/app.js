@@ -6,15 +6,57 @@
 
 // les mots var, let et const permettent de déclarer des variables. 
 
-// let indique une variable de type muable
-//( la valeur attribuée à ce type de variable peut changer )
+// LES DIFFERENTS TYPES DE VALEURS POSSIBLES ASSIGNEES A UNE VARIABLE
+
+/*
+
+string
+une chaine de caractères entre guillemet,
+ex:
+"Hello Wolrd"
+La chaine de caractère, peut aussi être vide.
+
+number
+un nombre
+ex:
+23
+
+boolean
+effectuer des vérifications
+ex:
+true ou false
+
+tableau
+plusieurs éléments représenté entre crochets [],
+ex:
+["lundi", "mardi", "mercredi", 12, false]
+Un tableau peut contenir tous types de variables,
+également un tableau dans un tableau, alors il s'agit de tableau bidimensionnel.
+
+
+objet
+plusieurs informations sur un élément, représenté entre accolade {}
+ex: 
+{
+  marque: 'Ford',
+  modele: 'Mustang',
+  annee: 1969
+}
+
+function
+une fonction.
+Cf les fonctions
+
+*/
 
 
 /*
-DECLARATION DE VARIABLES
-*/ 
+DECLARATION DE VARIABLES MUABLES AVEC LE MOT LET
+( Dont la valeur qui lui est assignée peu changer, évoluer )
+*/
 let a, b, c
-// les variables a, b et c sont crées. Aucune valeur ne leur est attribuée pour l'instant.
+// les variables a, b et c sont crées.
+// Aucune valeur ne leur est attribuée pour l'instant.
 
 
 a = "Hello World!"
@@ -28,47 +70,17 @@ let d = "Bye"
 console.log(d)
 // Résultat affiché en console :  Bye
 
-// LES DIFFERENTS TYPES DE VALEURS POSSIBLE
-/*
 
-string
-une chaine de caractères entre guillemet, ex: "Hello Wolrd". La chaine de caractère, peut être vide.
 
-number
-un nombre, ex: 23
 
-boolean
-effectuer des vérifications, ex: true ou false
 
-tableau
-plusieurs éléments représenté entre crochets [], ex: ["lundi", "mardi", "mercredi", 12, false]    Un tableau peut contenir tous types de variables, également un tableau dans un tableau, alors il s'agit de tableau bidimensionnel.
-*/
+
+// DECLARATION DE VARIABLES IMMUABLE AVEC LE MOT CONST
+//( la valeur attribuée à ce type de variable ne changera pas )
 
 const jours = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
+// Il n'y a que 7 jours dans la semaine et cela ne changera pas.
 
 console.log(jours[3])
 // affiche en console, jeudi,
 // le premier élément du tableau a l'index 0, le deuxième l'index 1, etc...
-
-
-/*
-objet
-plusieurs informations sur un élément, représenté entre accolade {}, ex: 
-{
-  marque: 'Ford',
-  modele: 'Mustang',
-  annee: 1969
-}
-
-function
-une fonction.
-Cf les fonctions
-
-
-*/
-
-
-
-
-// const indique une variable de type immuable
-//( la valeur attribuée à ce type de variable ne changera pas )

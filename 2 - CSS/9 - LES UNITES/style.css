@@ -1,32 +1,33 @@
 /* 
- 1 cm = 37,8 px
-*/
+
+1 cm = 37,8 px
 
 Unité	Relative à
 
 px      Unité fixe, ne change pas quelle que soit la largeur d'écran.
 
-em	    La taille (corps) de police de l'élément.
+em	La taille (corps) de police de l'élément.
         elle est proportionnelle à la taille de la police de l’élément parent ou du document.
-        Par défaut, 1 em = 16 px
-        si aucune taille de police n’est définie.
+        Par défaut, 1 em = 16 px si aucune taille de police n’est définie.
 
-rem	    La taille (corps) de police de l'élément racine.
-        l’unité rem fait toujours référence à la taille de la police de l’élément racine. En d’autres termes, elle dépend du font-size définit par défaut.
+rem	La taille (corps) de police de l'élément racine.
+        l’unité rem fait toujours référence à la taille de la police de l’élément racine.
+        En d’autres termes, elle dépend du font-size définit par défaut.
         
 %       Le pourcentage peut être utilisé sur la width ou la height
 
-vw	    1% de la largeur de la zone d'affichage (viewport)
-vh	    1% de la hauteur de la zone d'affichage (viewport)
+vw	1% de la largeur de la zone d'affichage (viewport)
+vh	1% de la hauteur de la zone d'affichage (viewport)
 vmin	1% de la zone d'affichage selon sa plus petite dimension
 vmax	1% de la zone d'affichage selon sa plus grande dimension
 
 
-Utilise la fonction clamp() pour avoir un élément dont la taille s'ajuste automatiquement au resize du viewport.
-/* valeur minimum, la taille idéal, la valeur maximum */
+Utiliser la fonction clamp() pour avoir un élément dont la taille
+s'ajuste automatiquement au resize du viewport.
+
+valeur minimum, la taille idéale, la valeur maximum 
 font-size: clamp(2vw, 5vw - 1rem, 4vw);
 
-/* 
 Générateur de clamp : 
 https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6IjMyMHB4IiwibWF4V2lkdGgiOiIxOTIwcHgiLCJtaW5Gb250U2l6ZSI6IjE2cHgiLCJtYXhGb250U2l6ZSI6IjQ4cHgifQ%3D%3D
 
