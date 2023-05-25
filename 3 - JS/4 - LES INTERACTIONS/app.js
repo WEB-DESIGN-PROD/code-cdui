@@ -6,5 +6,3 @@ h1.addEventListener('click', () => {
 
 
 
-
-

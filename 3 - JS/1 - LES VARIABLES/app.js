@@ -84,3 +84,4 @@ const jours = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dim
 console.log(jours[3])
 // affiche en console, jeudi,
 // le premier élément du tableau a l'index 0, le deuxième l'index 1, etc...
+
